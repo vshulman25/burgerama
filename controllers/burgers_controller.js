@@ -9,6 +9,7 @@ const burger = require('../models/burger.js');
 router.get('/', (req, res) => {
   burger.all((data) => {
     const hbsObject = {
+      // this key is what being handed to handlebars 
       burgers: data,
     };
     console.log(hbsObject);
