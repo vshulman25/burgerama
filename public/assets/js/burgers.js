@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             // Check that the response is all good
             // Reload the page so the user can see the new quote
             if (response.ok) {
-              console.log(`changed sleep to: ${newNom}`);
+              console.log(`Yum: ${newNom} sounds great!`);
               location.reload('/');
             } else {
               alert('something went wrong!');
@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
           document.getElementById('ca').value = '';
   
           // Reload the page so the user can see the new quote
-          console.log('Created a new burger!');
+          console.log('Created a new burger - lets see who devours it!');
           location.reload();
         });
       });
