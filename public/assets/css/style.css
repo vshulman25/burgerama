@@ -1,7 +1,15 @@
+body {
+  background-image: url(../img/whiteburgerbackground.jpg);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 li {
     padding: 5px;
     margin: 5px;
-    background: #f59016;
+    font-family: 'Zilla Slab', cursive;
+    /* background-color: aliceblue; */
   }
   
   .label {
@@ -16,8 +24,20 @@ li {
   
   .form-group {
     margin-bottom: 5px;
+    font-family: 'Zilla Slab', serif;
+  }
+
+  .submit {
+    font-family: 'Zilla Slab', serif;
   }
   
   h1 {
-    background-image: url(../img/catheader.jpg);
+    text-align: center;
+    font-family: 'Bungee Shade', cursive;
+  }
+
+  h2 {
+    font-family: 'Zilla Slab Highlight', cursive;
+    /* color: white; */
+    /* background-color: teal; */
   }

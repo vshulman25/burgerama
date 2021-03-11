@@ -32,6 +32,10 @@ At some points in development, my code worked perfectly with all GET and POST fu
     - [ ] Live link included below  
 - [ ] Portfolio 
     - [ ] Update portfolio with Heroku link
+- [ ] Styling
+    - [ ] Added fonts + photos
+    - [ ] Cheeseburger favicon
+    - [ ] Future development would include cards for the menu 
 
 
 ---
@@ -44,6 +48,7 @@ NPM install for express, MySQL & handlebars - other files required throughout th
 
 ## Preview 
 
+![13:Burgerama](public/assets/img/ramascreenshotlocal.png)
 
 ---
 
